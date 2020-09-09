@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
 }
 
 .button-container {
@@ -74,4 +75,9 @@ body {
 #button:hover::after {
 	opacity: 0;	
 	transform: scale(0.1, 1);
+}
+
+video {
+    position: absolute;
+    z-index: 10;
 }
